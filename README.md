@@ -113,7 +113,9 @@ flowchart TD
 
 | 담당자 | 역할 |
 |--------|------|
-| **나 (zeus1560)** | AI/ML 파이프라인 전체 — 감성 분석, LLM 리포트, 벡터 DB |
+| **나 (zeus1560)** | **Python 백엔드 전체** — AI/ML 파이프라인, 랜덤 시세 생성, 크롤러, 스케줄러 포함 `be-groom-python` 단독 구현 |
 | 팀원 A | Spring Boot 백엔드 API (`be-goorm-project`) |
 | 팀원 B | React 프론트엔드 대시보드 (`fe-goorm-project`) |
-| 팀원 C | 뉴스·커뮤니티 데이터 크롤러 |
+
+> `be-groom-python` 레포에 있는 Python 코드(크롤러, 봇, 랜덤 시세 시뮬레이터 포함)는 전부 내가 단독 작성했습니다.
+> 이 레포에는 그 중 AI 관련 핵심 모듈만 추출해 정리했습니다.
